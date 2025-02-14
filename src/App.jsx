@@ -5,13 +5,12 @@ import Routes from "./assets/routes/Routes"
 
 function App() {
 
-
   return (
-  <Layout>
-    <Header/>
-    <Routes/>
-    <Footer/>
-  </Layout>
+    <Layout>
+      <Header />
+      <Routes />
+      <Footer />
+    </Layout>
   )
 }
 

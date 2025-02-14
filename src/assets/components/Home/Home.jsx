@@ -1,4 +1,4 @@
-import { HomeStyled, HomeTitle, CardsContainer, Card, ImgCard } from "./homeStyle"
+import { HomeStyled, CardsContainer, Card, ImgCard } from "./homeStyle"
 import deportv from "./img/deportv.png"
 import tyc from "./img/tyc.png"
 import tvp from "./img/tvp.png"
@@ -28,7 +28,6 @@ function Home() {
 
   return (
     <HomeStyled>
-      <HomeTitle>Doble Cinco - Sin Virus, Sin Publicidad, Simple</HomeTitle>
       <CardsContainer>
         <Link to={"/espn/premium"} >
           <Card>

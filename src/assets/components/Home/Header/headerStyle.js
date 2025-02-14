@@ -14,8 +14,8 @@ export const HeaderStyled = styled.header`
 export const NavStyled = styled.nav`
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 15px;
     align-items: center;
 `
 

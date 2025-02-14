@@ -22,7 +22,7 @@ import E5 from "../components/Pages/Espn/E5/E5";
 import E6 from "../components/Pages/Espn/E6/E6";
 import E7 from "../components/Pages/Espn/E7/E7";
 import Premium from "../components/Pages/Espn/Premium/Premium";
-
+import Dmca from "../components/Pages/Dmca/Dmca";
 
 function Routes() {
   return (
@@ -46,6 +46,7 @@ function Routes() {
       <Route path="/publica" element={<Publica />} />
       <Route path="/deportv" element={<Deportv />} />
       <Route path="/play" element={<Play />} />
+      <Route path="/dmca" element={<Dmca />} />
     <Route path="*" element={<Error />} />
   </ReactDomRoutes>
   )

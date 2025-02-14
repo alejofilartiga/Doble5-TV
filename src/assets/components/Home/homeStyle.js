@@ -7,18 +7,12 @@ export const HomeStyled = styled.div`
     align-items: center;
     width: 100%;
     padding-top: 10%;
-`
-export const HomeTitle = styled.h2`
-    width: 78%;
-    font-size: 5vh;
-    font-weight: bold;
-    color: white;
-    text-align: start;
-
-    @media (max-width: 798px) {
-        text-align: center;
+    padding-bottom: 3%;
+    @media (max-width: 798px){
+        padding-top: 20%;
     }
 `
+
 
 export const CardsContainer = styled.div`
     display: flex;
@@ -27,12 +21,6 @@ export const CardsContainer = styled.div`
     width: 90%;
     flex-wrap: wrap;
     gap: 20px;
-    padding-bottom: 3%;
-
-    @media (max-width: 798px) {
-        width: 98%;
-    }
-
 `
 
 export const Card = styled.div`
@@ -47,7 +35,10 @@ export const Card = styled.div`
              0 0  0 2px rgb(190, 190, 190),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
 
-
+    @media (max-width: 798px) {
+        width: 100px;
+        height: 150px;
+    }
 `
 
 export const ImgCard = styled.img`

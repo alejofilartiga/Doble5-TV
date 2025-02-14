@@ -7,7 +7,7 @@ function BtnHome() {
 
   return (
     <Tooltip title="Volver al Inicio">
-      <IconButton>
+      <IconButton color="info" >
         <HomeIcon color="action"/>
       </IconButton>
     </Tooltip>
