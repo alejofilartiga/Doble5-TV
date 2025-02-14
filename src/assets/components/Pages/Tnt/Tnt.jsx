@@ -1,0 +1,21 @@
+import { StyledWrapper } from "../Espn/Premium/premiumStyle"
+
+function Tnt() {
+  return (
+    <StyledWrapper>
+      <iframe
+        name="pc1"
+        allow="autoplay *; encrypted-media *;"
+        sandbox="allow-scripts allow-same-origin"
+        style={{position: "fixed", top: "100px", width: '65%', height: '84%', overflow: 'hidden', border: '2px'}}
+        src="https://nebunexa.co/cvatt.php?get=VE5UX1Nwb3J0c19IRA"
+        allowFullScreen
+        scrolling="no"
+      >
+        Cargando reproductor…
+      </iframe>
+    </StyledWrapper>
+  )
+}
+
+export default Tnt
