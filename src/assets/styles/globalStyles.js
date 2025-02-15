@@ -7,6 +7,13 @@ export const GlobalStyles = createGlobalStyle`
 
 } */
 
+
+
+
+
+
+
+
   *{
     user-select: none;
   }
@@ -30,6 +37,36 @@ export const GlobalStyles = createGlobalStyle`
     background: radial-gradient(circle, rgba(0,36,255,1) 0%, rgba(0,0,0,1) 0%, rgba(0,22,255,1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    --sb-track-color: #ffffff;
+    --sb-thumb-color: #190050;
+    --sb-size: 16px;
+
+    &&-webkit-scrollbar {
+      width: var(--sb-size)
+    }
+
+    &&-webkit-scrollbar-track {
+      background: var(--sb-track-color);
+      border-radius: 1px;
+    }
+
+    }
+
+  body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 1px;
+    .scrollbar {
+  }
+
+    @supports not selector(::-webkit-scrollbar) {
+        body {
+          scrollbar-color: var(--sb-thumb-color)
+                          var(--sb-track-color);
+        }
     }
 
     a {
@@ -44,5 +81,5 @@ export const GlobalStyles = createGlobalStyle`
     li {
     list-style: none;
     }
-
+}
 `;
