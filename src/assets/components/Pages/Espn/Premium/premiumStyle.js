@@ -9,13 +9,13 @@ export const StyledWrapper = styled.section`
 `
 
 export const ChannelContainer = styled.div`
-    padding-top: 10%;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 50px;
 `
 
 export const CastOption = styled.h2`

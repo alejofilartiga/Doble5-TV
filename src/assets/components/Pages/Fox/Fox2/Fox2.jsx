@@ -11,7 +11,7 @@ function Fox2() {
               name="pc1"
               allow="autoplay *; encrypted-media *;"
               style={{width: '90%', height: '100%', border: '2px'}}
-              src="https://nebunexa.co/cvatt.php?get=Rm94U3BvcnRzMkhE"
+              src="https://gh.alangulo.tv/fox2-b/"
               allowFullScreen
               scrolling="no"
             />

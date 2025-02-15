@@ -6,11 +6,9 @@ export const HomeStyled = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 10%;
-    padding-bottom: 3%;
-    @media (max-width: 798px){
-        padding-top: 20%;
-    }
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
 `
 
 
